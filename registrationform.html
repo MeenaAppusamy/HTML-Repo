@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    body{
+        border: 5px solid;
+        background-color: rgb(89, 69, 243);
+        padding: 5px;
+    }
+    input{
+        background-color: #fff;
+        font-size: 16px;
+    }
+    table{
+        border: 3px;
+        border-color: black;
+        border-style: solid;
+        border-collapse: collapse;
+        background-color: white;
+        padding: 5px;
+    }
+    th,td{
+        border: 2px solid;
+        padding: 3px;
+    }
+    th{
+      
+        font-size: 16px;
+    }
+    label
+    {
+        font-size: 16px;
+    }
+</style>
+<body>
+    <center><h3><b> STUDENT REGISTRATION FORM</b></h3><br></center>
+    <form>
+   <label for="Uname"><b>FIRSTNAME</b></label>  <input type="text" id="Fname" placeholder="enter your firstname">  <h>(max 30-Characters a-z and A-Z)</h><br>
+   <br>
+   <label for="Lname"><b>LASTNAME</b></label>  <input type="text" id="Lname" placeholder="enter your lastname"> <h>(max 30-Characters a-z and A-Z)</h><br>
+    <br>
+  <label for="date"><b>DATEOFBIRTH</b></label>
+   <input type="date" id="DOB" placeholder="enter your DOB"><br><br>
+   <label for="email"><b>EMAIL</b></label>     <input type="email" id="email" placeholder="enter your email"><br><br>
+   <label for="Password"><b>PASSWORD</b></label>       <input type="password" id="Password" placeholder="enter you password"><br><br>
+   <label for="qual"><b>MOBILENUMBER</b></label>      <input type="text" id="qual">  <h>(max 10 numbers)</h> <br><br>
+   <label for="address"><b>ADDRESS</b></label> <br>     
+ <textarea style="margin-top: 16px;" cols="60" rows="5" id="address" placeholder="enter your address"></textarea><br>
+   <h3>Gender</h3>  
+    <input type="radio" id="radio1" name="'rbtn">
+    <label>Male</label>
+    <input type="radio" id="radio2" name="'rbtn">
+    <label>Female</label><br><br><br>
+    <label for="city"><b>CITY</b></label>        <input type="text" id="city">   <h>(max 30-Characters a-z and A-Z)</h><br><br>
+    <label for="state"><b>STATE</b></label>      <input type="text" id="state"> <h>(max 30-Characters a-z and A-Z)</h><br><br>
+    <label for="number"><b>PINCODE</b></label>     <input type="text" id="pincode"> <h>(max 6 digits)</h><br>
+    <h3>HOBBIES</h3>  
+    <input type="checkbox" id="check" name="check2">
+    <label>Cooking</label>
+    <input type="checkbox" id="check1" name="check2">
+    <label>ReadingBooks</label>
+    <input type="checkbox" id="check2" name="check3">
+    <label>Singing</label>
+    <input type="checkbox" id="check3" name="check4">
+    <label>Writing Novels</label>
+    <input type="checkbox" id="check4" name="check5">
+    <label>Others</label><br><br><br>
+    <h3>Qualifications</h3>  
+    <table>
+        
+        <thead>
+        <tr>
+            <th><b>SI.NO</b></th>
+            <th><b>EXAMINATION</b></th>
+            <th><b>BOARD</b></th>
+            <th><b>PERCENTAGE</b></th>
+            <th><b>YEAR OF PASSING</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>1</td>
+        <td>UG</td>
+        <td></td>
+        <td></td>
+        <td></td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>PG</td>
+            <td></td>
+            <td></td>
+            <td></td>
+             </tr>
+        <td>3</td>
+        <td>HSC</td>
+        <td></td>
+        <td></td>
+        <td></td>
+       
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>SSLC</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+   </table>
+   <h3>Courses applied for</h3>  <br>
+   <input type="radio" id="radio1" name="'rbtn">
+   <label>B.E</label>
+   <input type="radio" id="radio2" name="'rbtn">
+   <label>M.E</label>
+   <input type="radio" id="radio3" name="'rbtn">
+   <label>MBA</label>
+   <input type="radio" id="radio4" name="'rbtn">
+   <label>Others</label><br><br><br>
+
+  <center><button style="font-size: 16px;"><b>Register</b></button>   <input type="reset" name="RESET"></center>
+
+</form>
+</body>
+</html>
